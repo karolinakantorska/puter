@@ -2,8 +2,8 @@ import { useState } from 'react'
 
 //import './App.css'
 import { Verb, verbs } from '../lib/verbs'
-import { Flex, Input, Link, Select, Text } from '@chakra-ui/react'
-import { routes } from '../routes'
+import { Flex, Input, Select, Text } from '@chakra-ui/react'
+
 import { Nav } from './Nav'
 
 export const initialValue = [

@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/lib/verbs.tsx"],"version":"5.6.2"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/routes.tsx","./src/vite-env.d.ts","./src/components/home.tsx","./src/components/nav.tsx","./src/components/regular.tsx","./src/components/verb2.tsx","./src/lib/verbs.tsx","./src/lib/verbs2.tsx","./src/lib/verbsregular.tsx"],"version":"5.6.2"}

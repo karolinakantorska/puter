@@ -1,7 +1,4 @@
-import { useState } from 'react'
 
-//import './App.css'
-import { Verb, verbs } from './lib/verbs'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Home } from './components/Home'
