@@ -12,9 +12,14 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path={routes.regular} element={<Regular />} />
-        <Route path={routes.verb2} element={< Verb2 />} />
+        <Route path="/" element={<></>}>
+          <Route index element={<Home />} />
+          <Route path={routes.regular} element={<Regular />} />
+          <Route path={routes.verb2} element={< Verb2 />} />
+        </Route>
+
+
+
       </Routes>
     </BrowserRouter>
 
