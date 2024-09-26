@@ -46,9 +46,9 @@ export function LayoutVerbs({ verbs }: Props) {
     <Flex
       flexDir="column"
       width="100vw"
-      height="100vh"
+
       alignItems="center"
-      paddingTop='20%'
+      marginTop='10%'
     >
       <Flex>
         <Select
