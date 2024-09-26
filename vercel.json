@@ -1,0 +1,16 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/regular",
+            "dest": "/"
+        },
+        {
+            "src": "/verbs-2",
+            "dest": "/"
+        }
+    ]
+}

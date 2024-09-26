@@ -1,6 +1,7 @@
 
-import { Link } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/react'
 import { routes } from '../routes'
+import { Link } from 'react-router-dom'
 
 
 export function Nav() {
@@ -10,13 +11,28 @@ export function Nav() {
 
     <ul>
       <li>
-        <Link href={routes.home}>Home</Link>
+        <Link to={routes.home} >
+          <Button colorScheme='teal' variant='ghost'>
+            Home
+          </Button>
+        </Link>
+
       </li>
       <li>
-        <Link href={routes.regular}>Regular</Link>
+        <Link to={routes.regular} >
+          <Button colorScheme='teal' variant='ghost'>
+            Regular
+          </Button>
+        </Link>
+
       </li>
       <li>
-        <Link href={routes.verb2}>Verb2</Link>
+        <Link to={routes.verb2} >
+          <Button colorScheme='teal' variant='ghost'>
+            Verb2
+          </Button>
+        </Link>
+
       </li>
     </ul>
 
