@@ -91,7 +91,7 @@ export function LayoutVerbs({ verbs }: Props) {
               borderRadius={10}
               bgColor={value[i].form === verb.conjugation[i].form ? 'lightgreen' : 'pink'}
               color="black"
-              onChange={e => setValue(v => v.map((val, index) => index === i ? { ...val, form: e.target.value } : val))}
+              onChange={e => setValue(v => v.map((val, index) => index === i ? { ...val, form: e.target.value.toLocaleLowerCase() } : val))}
             />
           </Flex>
         </Flex>
