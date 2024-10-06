@@ -268,4 +268,178 @@ export const verbs: Verb[] = [
             }
         ]
     },
+    {
+        id: "ster",
+        conjugation: [
+            {
+                id: "eau",
+                form: "stun"
+            },
+            {
+                id: "tü",
+                form: "stest"
+            },
+            {
+                id: "el/alla",
+                form: "sto"
+            },
+            {
+                id: "nus",
+                form: "stains"
+            },
+            {
+                id: "vus",
+                form: "stais"
+            },
+            {
+                id: "els/ellas",
+                form: "staun"
+            }
+        ]
+    },
+    {
+        id: "dir",
+        conjugation: [
+            {
+                id: "eau",
+                form: "di"
+            },
+            {
+                id: "tü",
+                form: "dist"
+            },
+            {
+                id: "el/alla",
+                form: "disch"
+            },
+            {
+                id: "nus",
+                form: "dschains"
+            },
+            {
+                id: "vus",
+                form: "dschais"
+            },
+            {
+                id: "els/ellas",
+                form: "dian"
+            }
+        ]
+    },
+    {
+        id: "savair",
+        conjugation: [
+            {
+                id: "eau",
+                form: "se"
+            },
+            {
+                id: "tü",
+                form: "sest"
+            },
+            {
+                id: "el/alla",
+                form: "so"
+            },
+            {
+                id: "nus",
+                form: "savains"
+            },
+            {
+                id: "vus",
+                form: "savais"
+            },
+            {
+                id: "els/ellas",
+                form: "saun"
+            }
+        ]
+    },
+    {
+        id: "pudair",
+        conjugation: [
+            {
+                id: "eau",
+                form: "poss"
+            },
+            {
+                id: "tü",
+                form: "poust"
+            },
+            {
+                id: "el/alla",
+                form: "po"
+            },
+            {
+                id: "nus",
+                form: "pudains"
+            },
+            {
+                id: "vus",
+                form: "pudais"
+            },
+            {
+                id: "els/ellas",
+                form: "paun"
+            }
+        ]
+    },
+    {
+        id: "metter",
+        conjugation: [
+            {
+                id: "eau",
+                form: "met"
+            },
+            {
+                id: "tü",
+                form: "mettast"
+            },
+            {
+                id: "el/alla",
+                form: "metta"
+            },
+            {
+                id: "nus",
+                form: "mettains"
+            },
+            {
+                id: "vus",
+                form: "mettais"
+            },
+            {
+                id: "els/ellas",
+                form: "mettan"
+            }
+        ]
+    },
+    {
+        id: "vzair",
+        conjugation: [
+            {
+                id: "eau",
+                form: "vez"
+            },
+            {
+                id: "tü",
+                form: "vezast"
+            },
+            {
+                id: "el/alla",
+                form: "veza"
+            },
+            {
+                id: "nus",
+                form: "vzains"
+            },
+            {
+                id: "vus",
+                form: "vzais"
+            },
+            {
+                id: "els/ellas",
+                form: "vezan"
+            }
+        ]
+    },
 ]
