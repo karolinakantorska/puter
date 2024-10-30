@@ -3,7 +3,8 @@ export type Verb = {
     conjugation: {
         id: string;
         form: string;
-    }[];
+    }[]
+    perfet: string[];
 }
 
 export const verbs: Verb[] = [
@@ -34,7 +35,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "sun"
             }
-        ]
+        ],
+        perfet: ["sto", 'steda']
     },
     {
         id: "avair",
@@ -63,7 +65,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "haun"
             }
-        ]
+        ],
+        perfet: ['gieu']
     },
     {
         id: "fer",
@@ -92,7 +95,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "faun"
             }
-        ]
+        ],
+        perfet: ['fat', 'fatta']
     },
     {
         id: "ir",
@@ -121,7 +125,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "vaun"
             }
-        ]
+        ],
+        perfet: ['ieu', 'ida']
     },
     {
         id: "der",
@@ -150,7 +155,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "daun"
             }
-        ]
+        ],
+        perfet: ['do', 'deda']
     },
     {
         id: "gnir",
@@ -179,7 +185,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "vegnan"
             }
-        ]
+        ],
+        perfet: ['gnieu', 'gnida']
     },
     {
         id: "vulair",
@@ -208,7 +215,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "vöglian"
             }
-        ]
+        ],
+        perfet: ['vulieu', 'vulida']
     },
     {
         id: "vudair",
@@ -237,7 +245,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "paun"
             }
-        ]
+        ],
+        perfet: []
     },
     {
         id: "stuvair",
@@ -266,7 +275,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "stöglian"
             }
-        ]
+        ],
+        perfet: ['stuvieu']
     },
     {
         id: "ster",
@@ -295,7 +305,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "staun"
             }
-        ]
+        ],
+        perfet: ['sto', 'steda']
     },
     {
         id: "dir",
@@ -324,7 +335,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "dian"
             }
-        ]
+        ],
+        perfet: ['dit', 'ditta']
     },
     {
         id: "savair",
@@ -353,7 +365,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "saun"
             }
-        ]
+        ],
+        perfet: ['savieu', 'savida']
     },
     {
         id: "pudair",
@@ -382,7 +395,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "paun"
             }
-        ]
+        ],
+        perfet: ['pudieu']
     },
     {
         id: "metter",
@@ -411,7 +425,8 @@ export const verbs: Verb[] = [
                 id: "els/ellas",
                 form: "mettan"
             }
-        ]
+        ],
+        perfet: []
     },
     {
         id: "vzair",
@@ -422,11 +437,11 @@ export const verbs: Verb[] = [
             },
             {
                 id: "tü",
-                form: "vezast"
+                form: "vezzast"
             },
             {
                 id: "el/alla",
-                form: "veza"
+                form: "vezza"
             },
             {
                 id: "nus",
@@ -438,8 +453,9 @@ export const verbs: Verb[] = [
             },
             {
                 id: "els/ellas",
-                form: "vezan"
+                form: "vezzan"
             }
-        ]
+        ],
+        perfet: ['ves']
     },
 ]

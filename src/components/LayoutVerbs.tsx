@@ -36,10 +36,14 @@ type Props = {
   verbs: Verb[]
 }
 
+
+
 export function LayoutVerbs({ verbs }: Props) {
+  const initialPerfetValue = ['', '']
   const [verb, setVerb] = useState<Verb>(verbs[0])
 
   const [value, setValue] = useState(initialValue)
+  const [perfetValue, setPerfetValue] = useState(initialPerfetValue)
 
   return (
 
@@ -92,6 +96,32 @@ export function LayoutVerbs({ verbs }: Props) {
               bgColor={value[i].form === verb.conjugation[i].form ? 'lightgreen' : 'pink'}
               color="black"
               onChange={e => setValue(v => v.map((val, index) => index === i ? { ...val, form: e.target.value.toLocaleLowerCase() } : val))}
+            />
+          </Flex>
+        </Flex>
+      ))}
+      {verb.perfet.map((p, i) => (
+        <Flex
+          key={p + i}
+          flexDir="row"
+          //alignItems="center"
+          marginTop={8}
+        >
+          <Flex
+            width={100}
+          >
+            <Text >Perfet:</Text>
+          </Flex>
+          <Flex
+
+          >
+            <Input
+              value={perfetValue[i]}
+              size='lg'
+              borderRadius={10}
+              bgColor={perfetValue[i] === verb.perfet[i] ? 'lightgreen' : 'pink'}
+              color="black"
+              onChange={e => setPerfetValue(v => v.map((val, index) => index === i ? e.target.value.toLocaleLowerCase() : val))}
             />
           </Flex>
         </Flex>

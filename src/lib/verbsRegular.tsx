@@ -4,6 +4,8 @@ export type Verb = {
         id: string;
         form: string;
     }[];
+    perfet: string[];
+
 }
 
 export const verbsRegular: Verb[] = [
@@ -34,7 +36,8 @@ export const verbsRegular: Verb[] = [
                 id: "els/ellas",
                 form: "slüdan"
             }
-        ]
+        ],
+        perfet: ["salüdo", "salüdeda"]
     },
     {
         id: "vender",
@@ -63,7 +66,8 @@ export const verbsRegular: Verb[] = [
                 id: "els/ellas",
                 form: "vendan"
             }
-        ]
+        ],
+        perfet: ["vendieu", "vendida"]
     },
     {
         id: "partir",
@@ -92,7 +96,8 @@ export const verbsRegular: Verb[] = [
                 id: "els/ellas",
                 form: "partan"
             }
-        ]
+        ],
+        perfet: ["partieu", "partida"]
     },
     {
         id: "giodair",
@@ -121,7 +126,8 @@ export const verbsRegular: Verb[] = [
                 id: "els/ellas",
                 form: "giodan"
             }
-        ]
+        ],
+        perfet: ["giodieu", 'giodida']
     },
 
 ]

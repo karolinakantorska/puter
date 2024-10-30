@@ -4,6 +4,7 @@ export type Verb = {
         id: string;
         form: string;
     }[];
+    perfet: string[]
 }
 
 export const verbs2: Verb[] = [
@@ -34,7 +35,8 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "muossan"
             }
-        ]
+        ],
+        perfet: []
     },
     {
         id: "cumanzer",
@@ -63,7 +65,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "cumainzan"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "furmer",
@@ -92,7 +94,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "fourman"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "declarer",
@@ -121,7 +123,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "decleran"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "tadler",
@@ -150,7 +152,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "taidlan"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "chanter",
@@ -179,7 +181,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "chauntan"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "tschanter",
@@ -208,7 +210,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "tschaintan"
             }
-        ]
+        ], perfet: []
     }, {
         id: "giuver",
         conjugation: [
@@ -236,7 +238,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "giuvan"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "schmancher",
@@ -265,7 +267,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "schmaunchan"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "pruver",
@@ -294,7 +296,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "prouvan"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "musser",
@@ -323,7 +325,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "moussan"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "respuonder",
@@ -352,7 +354,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "respuondan"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "cugnuoscher",
@@ -381,7 +383,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "cugnuoschan"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "discuorrer",
@@ -410,7 +412,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "discuoran"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "ponderer",
@@ -439,7 +441,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "pondereschan"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "noter",
@@ -468,7 +470,7 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "notereschan"
             }
-        ]
+        ], perfet: []
     },
     {
         id: "tradür",
@@ -497,6 +499,6 @@ export const verbs2: Verb[] = [
                 id: "els/ellas",
                 form: "tradüan"
             }
-        ]
+        ], perfet: []
     },
 ]
