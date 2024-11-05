@@ -60,6 +60,7 @@ export function LayoutVerbs({ verbs }: Props) {
           onChange={e => {
             setVerb(verbs.find(v => v.id === e.target.value)!)
             setValue(initialValue)
+            setPerfetValue(initialPerfetValue)
           }}
           bg='seagreen'
           borderColor='seagreen'
